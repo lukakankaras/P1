@@ -1,1 +1,13 @@
-.idea
+# ignoriši sve
+*
+# ali ulazi u foldere
+!*/
+# i zadrži fajlove sa ekstenzijom
+!*.*
+# fajlovi bez ekstenzije koje želiš zadržati
+!Makefile
+!Dockerfile
+!LICENSE
+
+# .idea mora biti na kraju
+.idea/
